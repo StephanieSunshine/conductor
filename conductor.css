@@ -1,0 +1,25 @@
+/* CSS declarations go here */
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.status-icons {
+  width: 19.5%;
+  margin: 0.25%; 
+}
+
+.row-centered {
+    text-align:center;
+}
+
+/**/
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
